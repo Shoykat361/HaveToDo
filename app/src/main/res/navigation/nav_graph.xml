@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/toDoFragment">
+
+    <fragment
+        android:id="@+id/toDoFragment"
+        android:name="com.example.havetodo.ToDoFragment"
+        android:label="My Task"
+        tools:layout="@layout/fragment_to_do" >
+        <action
+            android:id="@+id/action_toDoFragment_to_newTodoFragment"
+            app:destination="@id/newTodoFragment" />
+        <action
+            android:id="@+id/action_toDoFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newTodoFragment"
+        android:name="com.example.havetodo.NewTodoFragment"
+        android:label="Create Task"
+        tools:layout="@layout/fragment_new_todo" />
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.example.havetodo.LogInFragment"
+        android:label="Log In"
+        tools:layout="@layout/fragment_log_in" />
+</navigation>

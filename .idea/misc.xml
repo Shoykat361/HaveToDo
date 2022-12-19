@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HaveTODO/app/src/main/res/layout/activity_main.xml" value="0.23306997742663657" />
+        <entry key="..\:/HaveTODO/app/src/main/res/layout/fragment_log_in.xml" value="0.21510416666666668" />
+        <entry key="..\:/HaveTODO/app/src/main/res/layout/fragment_new_todo.xml" value="0.21510416666666668" />
+        <entry key="..\:/HaveTODO/app/src/main/res/layout/fragment_to_do.xml" value="0.21510416666666668" />
+        <entry key="..\:/HaveTODO/app/src/main/res/layout/todo_row.xml" value="0.21510416666666668" />
+        <entry key="..\:/HaveTODO/app/src/main/res/menu/main_menu.xml" value="0.21510416666666668" />
+        <entry key="..\:/HaveTODO/app/src/main/res/menu/todo_list_menu.xml" value="0.21510416666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
